@@ -1,0 +1,16 @@
+{
+  "baseUrl": "src",
+  "allowSyntheticDefaultImports": true,
+  "composite": true,
+  "extends": "../../../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "./build/types"
+  },
+  "jsxImportSource": "@emotion/react",
+  "files": [
+    "src/main.tsx"
+  ],
+  "include": [
+    "src"
+  ]
+}
